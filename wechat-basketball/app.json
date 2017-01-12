@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/music/music",
+    "pages/music/change",
+    "pages/search/search",
+    "pages/me/me",
+    "pages/me/info",
+
+
+
+
+    "example/index",
+    "example/button/button",
+    "example/list/list",
+    "example/input/input",
+    "example/slider/slider",
+    "example/uploader/uploader",
+
+    "example/article/article",
+    "example/badge/badge",
+    "example/flex/flex",
+    "example/footer/footer",
+    "example/gallery/gallery",
+    "example/grid/grid",
+    "example/icons/icons",
+    "example/loadmore/loadmore",
+    "example/panel/panel",
+    "example/preview/preview",
+    "example/progress/progress",
+
+    "example/actionsheet/actionsheet",
+    "example/dialog/dialog",
+    "example/msg/msg",
+    "example/msg/msg_success",
+    "example/msg/msg_fail",
+    "example/picker/picker",
+    "example/toast/toast",
+
+    "example/navbar/navbar",
+    "example/tabbar/tabbar",
+
+    "example/searchbar/searchbar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "快递通",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#000000",
+    "color": "#ffffff",
+    "list": [
+      {
+         "pagePath": "pages/music/music",
+        "text": "叫快递",
+        "iconPath": "../../images/moto.png",
+        "selectedIconPath": "../../images/motoSelected.png"
+      },
+      {
+         "pagePath": "pages/search/search",
+        "text": "查快递",
+        "iconPath": "../../images/search.png",
+        "selectedIconPath": "../../images/searchSelected.png"
+      },
+      {
+         "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "../../images/user.png",
+        "selectedIconPath": "../../images/selectedUser.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

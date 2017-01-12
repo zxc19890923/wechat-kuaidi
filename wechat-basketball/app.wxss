@@ -1,0 +1,12 @@
+@import 'style/weui.wxss';
+.contain {
+    text-align: center;
+}
+view {
+    font-size: 14px;
+}
+.padding {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
