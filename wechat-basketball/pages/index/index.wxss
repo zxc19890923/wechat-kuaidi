@@ -1,0 +1,7 @@
+/* index/index.wxss */
+.slide-image {
+    width: 100%;
+}
+.swp {
+    height: 200px;
+}

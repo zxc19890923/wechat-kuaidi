@@ -1,0 +1,31 @@
+<!--pages/me/info.wxml-->
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+        <view class="weui-cell__bd">
+        <!--tab之间的切换不能传递参数-->
+        <!--<navigator url="../search/search?id={{data[0].number}}" open-type="switchTab">订单编号：{{data[0].number}}</navigator>-->
+        </view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">快递员姓名：{{data[0].name}}</view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">顾客姓名：{{data[0].customer}}</view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">快递员电话：{{data[0].phone}}</view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">订单时间：{{data[0].datetime}}</view>
+        <view class="weui-cell__ft"></view>
+    </view>
+    <view class="weui-cell">
+        <view class="weui-cell__bd">取货地址：{{data[0].address}}</view>
+        <view class="weui-cell__ft"></view>
+    </view>
+</view>
+

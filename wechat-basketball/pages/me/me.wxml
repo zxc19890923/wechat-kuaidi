@@ -1,0 +1,15 @@
+<!--me/me.wxml-->
+<view style="text-align: center; padding-bottom: 20px">
+    <view class="userLogo">
+        <image class="userImg" src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view>
+        <text>{{userInfo.nickName}}</text>
+    </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="info" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">{{data[0].title}}</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+ </view>
